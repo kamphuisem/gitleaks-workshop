@@ -1,0 +1,6 @@
+[[rules]]
+id = "sql connectionstring"
+description = "SQL connectionstring"
+regex = '''(?i)((.*)[a-z0-9_ .\-,]{0,50}['\"]?[a-z0-9_ .\-,]{0,50})(=|>|:=|\|\|:|<=|=>|:).{0,5}['\"](Server=.*Password=.*)['\"]'''
+entropy = 2
+secretGroup = 4

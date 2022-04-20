@@ -1,0 +1,6 @@
+[[rules]]
+id = "generic secret"
+description = "Generic secret"
+regex = '''(?i)((token|secret|password|key)[a-z0-9_ .\-,]{0,50}['\"]?[a-z0-9_ .\-,]{0,50})(=|>|:=|\|\|:|<=|=>|:).{0,5}['\"](.*)['\"]'''
+entropy = 2
+secretGroup = 4

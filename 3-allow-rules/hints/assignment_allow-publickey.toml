@@ -1,0 +1,5 @@
+[allowlist]
+description = "Allow PublicKey keyword"
+regexes = [
+    '''-----BEGIN ((EC|PGP|DSA|RSA|OPENSSH) )?PUBLIC KEY( BLOCK)?-----'''
+]
